@@ -1,13 +1,30 @@
 # ember-leaflet-iiif-tile-layer
 
-This README outlines the details of collaborating on this Ember addon.
-
 ## Installation
+`ember install ember-leaflet-iiif-tile-layer`
 
-* `git clone <repository-url>` this repository
-* `cd ember-leaflet-iiif-tile-layer`
-* `npm install`
-* `bower install`
+## Usage
+
+#### Template
+
+```htmlbars
+{{#leaflet-map lat=0 lng=0 zoom=0 crs=crs}}
+    {{iiif-tile-layer url="https://example.com/image/info.json"}}
+{{/leaflet-map}}
+```
+#### Controller
+
+```javascript
+export default Ember.Controller.extend({
+    crs: L.CRS.Simple
+});
+```
+*If the map CRS is not set to `L.CRS.Simple` you will have a bad time and wonder why nothing works.*
+
+
+### Options
+
+See [Leaflet-iiif](https://github.com/mejackreed/Leaflet-IIIF#options)
 
 ## Running
 

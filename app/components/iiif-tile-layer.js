@@ -1,0 +1,1 @@
+export { default } from 'ember-leaflet-iiif-tile-layer/components/iiif-tile-layer';

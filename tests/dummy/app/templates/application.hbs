@@ -1,5 +1,5 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{#leaflet-map lat=0 lng=0 zoom=0 crs=crs}}
+    {{iiif-tile-layer url="https://stacks.stanford.edu/image/iiif/hg676jb4964%2F0380_796-44/info.json"}}
+{{/leaflet-map}}
 
 {{outlet}}
