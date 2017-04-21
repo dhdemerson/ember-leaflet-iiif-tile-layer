@@ -1,6 +1,9 @@
 # ember-leaflet-iiif-tile-layer
+This is a wrapper library for [Leaflet-iiif](https://github.com/mejackreed/Leaflet-IIIF) for use with [ember-leaflet](https://github.com/miguelcobain/ember-leaflet). 
 
 ## Installation
+`ember install ember-leaflet`
+
 `ember install ember-leaflet-iiif-tile-layer`
 
 ## Usage
@@ -12,6 +15,7 @@
     {{iiif-tile-layer url="https://example.com/image/info.json"}}
 {{/leaflet-map}}
 ```
+
 #### Controller
 
 ```javascript
@@ -25,6 +29,10 @@ export default Ember.Controller.extend({
 ### Options
 
 See [Leaflet-iiif](https://github.com/mejackreed/Leaflet-IIIF#options)
+
+#### Example
+
+`{{iiif-tile-layer url="https://example.com/image/info.json" fitBounds=false}}`
 
 ## Running
 
