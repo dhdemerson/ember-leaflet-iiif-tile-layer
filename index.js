@@ -6,15 +6,8 @@ module.exports = {
   options: {
     nodeAssets: {
       'leaflet-iiif': {
-        vendor: {
-          include: ['leaflet-iiif.js']
-        }
+        import: ['leaflet-iiif.js']
       }
     }
-  },
-  included(app) {
-    this._super.included.apply(this, arguments);
-
-    app.import('vendor/leaflet-iiif/leaflet-iiif.js');
   }
 };
