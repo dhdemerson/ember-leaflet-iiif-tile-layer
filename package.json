@@ -16,7 +16,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "http://github.com/dhdemerson/ember-leaflet-iiif-tile-layer",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
