@@ -6,6 +6,7 @@ export default TileLayer.extend({
     'tileFormat',
     'tileSize',
     'fitBounds',
+    'setMaxBounds',
     'quality'
   ],
 
