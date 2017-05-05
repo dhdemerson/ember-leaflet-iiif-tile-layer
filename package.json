@@ -1,6 +1,6 @@
 {
   "name": "ember-leaflet-iiif-tile-layer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Wrapper library of leaflet-iiif for use with ember-leaflet",
   "keywords": [
     "ember-addon",
